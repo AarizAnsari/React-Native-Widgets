@@ -1,24 +1,20 @@
 {
   "name": "react-native-widgetsui",
-  "version": "1.6.1",
+  "version": "1.7.3",
   "description": "",
-  "main": "index.ts",
   "type": "module",
+  "main": "index",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["react-native","react","react-native-UI","front-end","react-native widgets"],
   "author": "Mohd Aariz",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.1.7",
     "typescript": "^5.0.4"
-  },
+  },            
   "dependencies": {
-    "react": "^18.2.0",
-    "react-native": "^0.71.8"
-  },
-  "peerDependencies": {
     "react": "^18.2.0",
     "react-native": "^0.71.8"
   }

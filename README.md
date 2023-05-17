@@ -33,3 +33,25 @@ A Circular Image Icon with properties of a url and height
               />
 }
 ```
+### PILL BUTTON
+
+`import {} from 'react-native-widgetsui`
+
+A Pill Shaped button which requires a JSX child element and a onPress event action.
+
+Properties:
+height,
+width,
+backgroundColor
+
+```
+{
+              <PillButton
+                onPress(()=>{})
+                child = {<Text>Press Me</Text>}
+                height={40}
+                width={200}
+                backgroungColor={'blue'}
+              />
+}
+```
