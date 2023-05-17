@@ -8,3 +8,7 @@
 3. EXAMPLES
 4. LICENSE
 5. LINKS
+
+## INSTALLATION
+
+`npm i react-native-widgetsui`
