@@ -17,3 +17,23 @@
 `npm i react-native-widgetsui`
 `import {} from 'react-native-widgetsui`
 
+## COMPONENTS
+
+### AVATAR
+
+`import {} from 'react-native-widgetsui`
+
+A Circular Image Icon with properties of a url and height
+
+```
+{
+    <Avatar
+                url={"image url"}
+                height={80}
+                margin={11}
+                backgroundColor="grey"
+              />
+}
+```
+
+
