@@ -2,8 +2,8 @@ import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 
 const ListTile = (props: {
-  Leading?: JSX.Element;
-  Trailing?: JSX.Element;
+  Leading?: any;
+  Trailing?: any;
   borderRadius?: number;
   elevation?: number;
   marginVertical?: number;
@@ -51,7 +51,7 @@ const ListTile = (props: {
   );
 };
 
-export default ListTile;
+export {ListTile};
 
 const styles = StyleSheet.create({
   body: {

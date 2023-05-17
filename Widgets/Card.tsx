@@ -2,7 +2,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
 const Card = (props: {
-  child: JSX.Element;
+  child: any;
   elevation?: number;
   borderRadius?: number;
   backgroundColor?: string;
@@ -28,7 +28,7 @@ const Card = (props: {
   );
 };
 
-export default Card;
+export {Card};
 
 const styles = StyleSheet.create({
   body: {},

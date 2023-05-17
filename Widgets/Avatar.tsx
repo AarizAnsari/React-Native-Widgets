@@ -12,6 +12,6 @@ const Avatar = (props:{url:string,height?:number,margin?:number,backgroundColor?
 )
 }
 
-export default Avatar
+export {Avatar}
 
 const styles = StyleSheet.create({}) 

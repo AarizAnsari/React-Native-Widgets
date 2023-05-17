@@ -1,12 +1,25 @@
 {
-  "name": "react-native-widgets",
-  "version": "1.0.0",
-  "description": "React Native pre-build UI components for fast and easy development ",
+  "name": "react-native-widgetsui",
+  "version": "1.6.1",
+  "description": "",
   "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
   "author": "Mohd Aariz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.71.8"
+  },
   "peerDependencies": {
-    "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react": "^18.2.0",
+    "react-native": "^0.71.8"
   }
 }

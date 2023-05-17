@@ -5,7 +5,7 @@ const PillButton = (props: {
   width?: number;
   height?: number;
   buttonColor?: string;
-  child: JSX.Element;
+  child: any;
   onPress: any;
 }) => {
   var color = 'black';
@@ -29,6 +29,6 @@ const PillButton = (props: {
   );
 };
 
-export default PillButton;
+export {PillButton};
 
 const styles = StyleSheet.create({});

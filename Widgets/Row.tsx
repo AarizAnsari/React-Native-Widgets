@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Row = (props:{children:JSX.Element[]}) => {
+const Row = (props:{children:any[]}) => {
   return (
     <View style={{flexDirection:'row'}}>
       {props.children}
@@ -9,6 +9,6 @@ const Row = (props:{children:JSX.Element[]}) => {
   )
 }
 
-export default Row
+export {Row}
 
 const styles = StyleSheet.create({})
