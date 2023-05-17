@@ -12,8 +12,8 @@
 
 ## INSTALLATION
 
-`npm i react-native-widgetsui`
-`import {} from 'react-native-widgetsui`
+```npm i react-native-widgetsui```
+```import {} from 'react-native-widgetsui```
 
 ## COMPONENTS
 
