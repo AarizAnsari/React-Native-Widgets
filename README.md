@@ -12,3 +12,9 @@
 ## INSTALLATION
 
 `npm i react-native-widgetsui`
+`import {} from 'react-native-widgetsui`
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
